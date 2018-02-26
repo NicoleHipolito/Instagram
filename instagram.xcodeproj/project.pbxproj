@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281DDE502043965F00BBD8DD /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DDE4F2043965F00BBD8DD /* PostCell.swift */; };
+		281DDE522043AD6100BBD8DD /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DDE512043AD6100BBD8DD /* DetailsViewController.swift */; };
 		282407642043623800F38A98 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282407632043623800F38A98 /* Post.swift */; };
 		282D835B203B8F860058CC92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D835A203B8F860058CC92 /* AppDelegate.swift */; };
 		282D835D203B8F870058CC92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282D835C203B8F870058CC92 /* ViewController.swift */; };
@@ -43,6 +45,8 @@
 /* Begin PBXFileReference section */
 		077381A4B34C1847684592FF /* Pods_instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E39E1155EF6BBCC6766C159 /* Pods-instagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instagramTests/Pods-instagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		281DDE4F2043965F00BBD8DD /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		281DDE512043AD6100BBD8DD /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		282407632043623800F38A98 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		282D8357203B8F860058CC92 /* instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		282D835A203B8F860058CC92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +133,7 @@
 				282D8363203B8F870058CC92 /* LaunchScreen.storyboard */,
 				282D8366203B8F870058CC92 /* Info.plist */,
 				282407632043623800F38A98 /* Post.swift */,
+				281DDE4F2043965F00BBD8DD /* PostCell.swift */,
 			);
 			path = instagram;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			children = (
 				28EB4813203E33C7006D1416 /* LoginViewController.swift */,
 				28E2A6FA20423E84001815FF /* HomeViewController.swift */,
+				281DDE512043AD6100BBD8DD /* DetailsViewController.swift */,
 				282D835C203B8F870058CC92 /* ViewController.swift */,
 				28E2A6FD20427A67001815FF /* ComposeViewController.swift */,
 			);
@@ -333,11 +339,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-instagram/Pods-instagram-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/ParseUI/ParseUI.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParseUI.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -485,8 +493,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				281DDE502043965F00BBD8DD /* PostCell.swift in Sources */,
 				28E2A6FE20427A67001815FF /* ComposeViewController.swift in Sources */,
 				28EB4814203E33C7006D1416 /* LoginViewController.swift in Sources */,
+				281DDE522043AD6100BBD8DD /* DetailsViewController.swift in Sources */,
 				282D835D203B8F870058CC92 /* ViewController.swift in Sources */,
 				282407642043623800F38A98 /* Post.swift in Sources */,
 				282D835B203B8F860058CC92 /* AppDelegate.swift in Sources */,
