@@ -20,14 +20,6 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>${CURRENT_PROJECT_VERSION}</string>
-	<key>Information Property List</key>
-	<dict>
-		<key>NSAppTransportSecurity</key>
-		<dict>
-			<key>NSAllowArbitraryLoads</key>
-			<true/>
-		</dict>
-	</dict>
 	<key>NSPrincipalClass</key>
 	<string></string>
 </dict>
