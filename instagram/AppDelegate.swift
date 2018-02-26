@@ -33,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             print("user is still logged in")
             // view controller currently being set in Storyboard as default will be overridden
-//            window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController")
+            window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController")
         }
         
         NotificationCenter.default.addObserver(forName: Notification.Name("didLogout"), object: nil, queue: OperationQueue.main) { (Notification) in
